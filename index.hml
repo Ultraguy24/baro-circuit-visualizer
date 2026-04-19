@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BaroCircuit Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"></script>
+</head>
+<body>
+    <div class="app-wrapper">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>BaroCircuit</h2>
+                <div id="status" class="status-text">Ready</div>
+            </div>
+
+            <div id="dropzone" class="mini-dropzone">
+                <span>Click or Drop .save</span>
+                <input type="file" id="fileInput" hidden>
+            </div>
+
+            <nav>
+                <h3>Circuit Boxes</h3>
+                <ul id="circuitList">
+                    <li class="placeholder">No boxes loaded</li>
+                </ul>
+            </nav>
+
+            <footer class="sidebar-footer">
+                made by <a href="https://github.com/Ultraguy24" target="_blank">Ultraguy</a>
+            </footer>
+        </aside>
+
+        <main class="main-viewer">
+            <div class="toolbar">
+                <span class="hint">🖱️ Scroll: Zoom | Drag: Pan</span>
+                <button id="resetView">Reset View</button>
+                <button id="downloadSVG" class="btn-secondary">Download SVG</button>
+            </div>
+
+            <div id="svgContainer" class="svg-canvas">
+                </div>
+        </main>
+    </div>
+    <script src="definitions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
