@@ -25,7 +25,7 @@ This tool shows all circuit boxes on the last active submarine in a save file an
 
     Export: Use the Download SVG button to save a snapshot of the schematic.
 
- [![Screenshot-2026-04-20-at-01-30-50-Baro-Circuit-Visualizer.png](https://i.postimg.cc/y8JTbM4Y/Screenshot-2026-04-20-at-01-30-50-Baro-Circuit-Visualizer.png)](https://postimg.cc/tsjP1m4L)
+ <img width="1920" height="954" alt="Screenshot 2026-04-20 at 01-30-50 BaroCircuit Visualizer" src="https://github.com/user-attachments/assets/f37750c8-9b46-43c0-801d-6d33e612ff68" />
 
  Credits
 
