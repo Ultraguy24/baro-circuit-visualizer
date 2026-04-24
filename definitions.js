@@ -98,5 +98,11 @@ const COMPONENT_DEFS = {
         leftPins: ["signal_in"],
         rightPins: ["signal_out"],
         properties: ["continuousoutput"]
+    },
+    "concatcomponent": {
+        name: "CONCATENATION",
+        leftPins: ["signal_in1", "signal_in2"],
+        rightPins: ["signal_out"],
+        properties: ["seperator", "timeframe"]
     }
 };
