@@ -103,6 +103,6 @@ const COMPONENT_DEFS = {
         name: "CONCATENATION",
         leftPins: ["signal_in1", "signal_in2"],
         rightPins: ["signal_out"],
-        properties: ["seperator", "timeframe"]
+        properties: ["separator", "timeframe"]
     }
 };
