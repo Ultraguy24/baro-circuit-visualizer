@@ -41,12 +41,6 @@ const COMPONENT_DEFS = {
         rightPins: ["signal_out"],
         properties: ["clamp_max", "clamp_min", "timeframe"]
     },
-    "addcomponent": {
-        name: "ADD",
-        leftPins: ["signal_in1", "signal_in2"],
-        rightPins: ["signal_out"],
-        properties: ["clamp_max", "clamp_min", "timeframe"]
-    },
     "subtractcomponent": {
         name: "SUBTRACT",
         leftPins: ["signal_in1", "signal_in2"],
@@ -104,5 +98,41 @@ const COMPONENT_DEFS = {
         leftPins: ["signal_in1", "signal_in2"],
         rightPins: ["signal_out"],
         properties: ["separator", "timeframe"]
+    },
+    "abscomponent": {
+        name: "ABSOLUTE",
+        leftPins: ["signal_in"],
+        rightPins: ["signal_out"],
+        properties: []
+    },
+    "acoscomponent": {
+        name: "ACOS",
+        leftPins: ["signal_in"],
+        rightPins: ["signal_out"],
+        properties: ["useradians"]
+    },
+    "asincomponent": {
+        name: "ASIN",
+        leftPins: ["signal_in"],
+        rightPins: ["signal_out"],
+        properties: ["useradians"]
+    },
+    "atancomponent": {
+        name: "ATAN",
+        leftPins: ["signal_in","signal_inx","signal_iny"],
+        rightPins: ["signal_out"],
+        properties: ["useradians"]
+    },
+    "ceilcomponent": {
+        name: "CEILING",
+        leftPins: ["signal_in"],
+        rightPins: ["signal_out"],
+        properties: []
+    },
+    "colorcomponent": {
+        name: "COLOR",
+        leftPins: ["signal_r","signal_g","signal_b","signal_a",],
+        rightPins: ["signal_out"],
+        properties: ["usehsv"]
     }
 };
